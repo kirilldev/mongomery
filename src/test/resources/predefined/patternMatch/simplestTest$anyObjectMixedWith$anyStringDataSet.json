@@ -1,0 +1,16 @@
+{
+  "Account": [
+    {
+      "_id": {
+        "$oid": "55f3ed00b1375a40e61830bf"
+      },
+      "portfolio": {
+        "firstName": "john",
+        "secondName": "doe",
+        "email": "email@domain.com"
+      }
+    }
+  ]
+}
+
+

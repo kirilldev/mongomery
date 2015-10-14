@@ -1,0 +1,23 @@
+{
+  "Vocabulary": [
+    {
+      "_id": {
+        "$oid": "55f3ed00b1375a48e61830bf"
+      },
+      "className": "com.wordparty.model.Vocabulary",
+      "version": 0
+    }
+  ],
+  "Account": [
+    {
+      "_id": {
+        "$oid": "55f3ed00b1375a48e61830bf"
+      },
+      "email": "email@domain.com",
+      "firstName": "firstName",
+      "secondName": "secondName",
+      "registrationDate": 0,
+      "confirmed": false
+    }
+  ]
+}

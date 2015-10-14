@@ -1,0 +1,44 @@
+{
+  "Account": [
+    {
+      "_id": {
+        "$oid": "51f92b343944ec3f14a94459"
+      },
+      "firstName": "testFirstName1",
+      "secondName": "testSecondName1",
+      "confirmed": true
+    },
+    {
+      "_id": {
+        "$oid": "52f92b343944ec3f14a94459"
+      },
+      "firstName": "$anyString()",
+      "secondName": "testSecondName2",
+      "confirmed": false
+    },
+    {
+      "_id": "$anyObject()",
+      "firstName": "testFirstName3",
+      "secondName": "testSecondName3",
+      "confirmed": true
+    },
+    {
+      "_id": {
+        "$oid": "54f92b343944ec3f14a94459"
+      },
+      "firstName": "testFirstName4",
+      "fakeName": "$anyString()",
+      "confirmed": true
+    },
+    {
+      "_id": {
+        "$oid": "55f92b343944ec3f14a94459"
+      },
+      "firstName": "testFirstName5",
+      "secondName": "testSecondName5",
+      "confirmed": true
+    }
+  ]
+}
+
+

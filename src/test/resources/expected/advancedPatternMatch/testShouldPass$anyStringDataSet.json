@@ -1,0 +1,10 @@
+{
+  "Vocabulary": [
+    {
+      "_id": {
+        "$oid": "55f3ed00b1375a48e61830bf"
+      },
+      "date": "$anyString(/\\d{4}-\\d{2}-\\d{2}/)"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "Account": [
+    {
+      "_id": "$anyObject()",
+      "portfolio": {
+        "firstName": "$anyString()",
+        "secondName": "$anyString()",
+        "email": "email@domain.com"
+      }
+    }
+  ]
+}
+
+

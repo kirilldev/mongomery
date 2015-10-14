@@ -1,0 +1,21 @@
+{
+  "Vocabulary": [
+    {
+      "_id": "$anyObject()",
+      "className": "com.wordparty.model.Vocabulary",
+      "version": 0
+    }
+  ],
+  "Account": [
+    {
+      "_id": "$anyObject()",
+      "email": "email@domain.com",
+      "firstName": "firstName",
+      "secondName": "secondName",
+      "registrationDate": 0,
+      "confirmed": false
+    }
+  ]
+}
+
+

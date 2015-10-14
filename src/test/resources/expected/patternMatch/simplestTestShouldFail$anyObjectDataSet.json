@@ -1,0 +1,10 @@
+{
+  "Account": [
+    {
+      "_id": {
+        "$oid": "55f3ed00b1375a48e61830bf"
+      },
+      "email": "$anyString()"
+    }
+  ]
+}

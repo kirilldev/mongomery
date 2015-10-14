@@ -1,0 +1,21 @@
+{
+  "Books": [
+    {
+      "_id": {
+        "$oid": "55f3ed00b1375a40e61830bf"
+      },
+      "englishTitle": "The Little Prince",
+      "originalTitle": "Le Petit Prince",
+      "author": "Antoine de Saint-Exupéry"
+    }
+  ],
+  "Movies": [
+    {
+      "_id": {
+        "$oid": "55f3ed00b1375a48e61830bf"
+      },
+      "name": "Titanic",
+      "year": 1997
+    }
+  ]
+}
