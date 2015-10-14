@@ -1,10 +1,9 @@
 # mongomery
 Simple and useful util for unit and integration testing with mongodb (java 1.5+)
 
-[![Build Status](https://travis-ci.org/kirilldev/test-mongo.svg?branch=master)](https://travis-ci.org/kirilldev/test-mongo)
+[![Build Status](https://travis-ci.org/kirilldev/mongomery.svg?branch=master)](https://travis-ci.org/kirilldev/mongomery)
 
-[![Coverage Status](https://coveralls.io/repos/kirilldev/test-mongo/badge.svg?branch=master&service=github)](https://coveralls.io/github/kirilldev/test-mongo?branch=master)
-
+[![Coverage Status](https://coveralls.io/repos/kirilldev/mongomery/badge.svg?branch=master&service=github)](https://coveralls.io/github/kirilldev/mongomery?branch=master)
 
 This library allows you easily populate db with predefined data
 from a json file and also do assertions about db state using a json file.
