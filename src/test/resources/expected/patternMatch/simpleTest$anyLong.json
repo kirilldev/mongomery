@@ -1,0 +1,12 @@
+  {
+      "Movies": [
+    {
+      "_id": {
+        "$oid": "55f3ed00b1375a48e61830bf"
+      },
+      "name": "Titanic",
+      "year": 1997,
+      "code" : "$any()"
+    }
+  ]
+  }
