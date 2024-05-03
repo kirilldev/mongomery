@@ -5,6 +5,7 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 public enum Placeholders {
+    ANY("\\$any\\(\\)"),
     ANY_OBJECT("\\$anyObject\\(\\)"),
     ANY_OBJECT_WITH_ARG("\\$anyObject\\(\\d{1,10}\\)"),
     ANY_STRING("\\$anyString\\(\\)"),

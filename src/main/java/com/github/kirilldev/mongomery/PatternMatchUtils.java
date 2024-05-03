@@ -1,12 +1,19 @@
 package com.github.kirilldev.mongomery;
 
-import net.minidev.json.JSONObject;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import net.minidev.json.JSONObject;
 
-import static com.github.kirilldev.mongomery.Placeholders.*;
+import static com.github.kirilldev.mongomery.Placeholders.ANY;
+import static com.github.kirilldev.mongomery.Placeholders.ANY_OBJECT;
+import static com.github.kirilldev.mongomery.Placeholders.ANY_OBJECT_WITH_ARG;
+import static com.github.kirilldev.mongomery.Placeholders.ANY_STRING;
+import static com.github.kirilldev.mongomery.Placeholders.ANY_STRING_WITH_ARG;
 
 public class PatternMatchUtils {
     private PatternMatchUtils() {
@@ -40,6 +47,8 @@ public class PatternMatchUtils {
                         if (((String) o).matches(regex)) {
                             clone = createMergedObj(trace, properties, clone.getAsString($s[0]));
                         }
+                    } else if (ANY.eq($s[1])) {
+                        clone = createMergedObj(trace, properties, clone.getAsString($s[0]));
                     } else {
                         return null;
                     }

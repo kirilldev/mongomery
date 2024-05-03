@@ -1,13 +1,11 @@
 package com.github.kirilldev.mongomery;
 
 import com.github.fakemongo.Fongo;
-
 import com.mongodb.DB;
+import java.io.InputStream;
 import net.minidev.json.JSONObject;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.io.InputStream;
 
 public class TestMongoDBTester {
 
@@ -117,5 +115,11 @@ public class TestMongoDBTester {
     public void testShouldFail$anyObjectDataSet() {
         mongoDBTester.setDBState("advancedPatternMatch/testShouldPass$anyObjectDataSet.json");
         mongoDBTester.assertDBStateEquals("advancedPatternMatch/testShouldFail$anyObjectDataSet.json");
+    }
+
+    @Test
+    public void testShouldPass$anyLong() {
+        mongoDBTester.setDBState("patternMatch/simpleTest$anyLong.json");
+        mongoDBTester.assertDBStateEquals("patternMatch/simpleTest$anyLong.json");
     }
 }
